@@ -1,0 +1,11 @@
+.inp-btn:focus {
+  outline: none;
+}
+
+.modal-content {
+  height: 100%;
+}
+
+.modal-header {
+  padding: 0;
+}
