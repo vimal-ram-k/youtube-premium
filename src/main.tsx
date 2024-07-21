@@ -6,7 +6,7 @@ import Navbar from "./components/Navigationbar/navbar.tsx";
 import ReactDOM from "react-dom";
 import "../node_modules/bootstrap/scss/bootstrap.scss";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-
+import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 const ROUTER = createBrowserRouter([
   {
     path: "/",

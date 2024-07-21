@@ -3,6 +3,8 @@
 }
 
 .outer {
+  position: fixed;
+  top: 0px;
   height: 50px;
   box-shadow: 5px 5px 5px 0px rgb(230, 230, 230);
 }
