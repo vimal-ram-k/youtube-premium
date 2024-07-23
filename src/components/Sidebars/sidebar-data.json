@@ -1,0 +1,43 @@
+{
+  "sidebarpages": [
+    {
+      "img": "bi-house-exclamation-fill",
+      "name": "Home"
+    },
+    {
+      "img": "bi-fast-forward-circle-fill",
+      "name": "Shorts"
+    },
+    {
+      "img": "bi-film",
+      "name": "Subcriptions"
+    }
+  ],
+
+  "sidebaryou": [
+    {
+      "img": "",
+      "name": "Your channel"
+    },
+    {
+      "img": "",
+      "name": "History"
+    },
+    {
+      "img": "",
+      "name": "Playlists"
+    },
+    {
+      "img": "",
+      "name": "Your videos"
+    },
+    {
+      "img": "",
+      "name": "Watch later"
+    },
+    {
+      "img": "",
+      "name": "Liked videos"
+    }
+  ]
+}
