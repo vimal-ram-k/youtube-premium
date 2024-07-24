@@ -2,6 +2,7 @@ import data from "./navbar-data.json";
 import "./navbar.css";
 import Searchbar from "../Searchbar/searchbar";
 import { Link } from "react-router-dom";
+import { ProfileComponent } from "../Profile/profilecompoent";
 
 function Navbar() {
   return (
@@ -47,6 +48,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
+        <ProfileComponent />
       </nav>
     </>
   );
