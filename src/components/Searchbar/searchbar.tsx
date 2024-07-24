@@ -2,6 +2,7 @@ import "./searchbar.css";
 import data from "./search-data.json";
 import data1 from "../Navigationbar/navbar-data.json";
 import Mainsearchbar from "./mainsearchbar";
+import { SearchFilter } from "../Searchfilter/searchfilter";
 
 function Searchbar() {
   return (
@@ -16,7 +17,7 @@ function Searchbar() {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog  p-0 m-0">
+        <div className="modal-dialog  p-0 m-0" id="">
           <div className="modal-content">
             <div className="modal-header p-2 m-0 row d-flex justify-content-between  ">
               <button className="btn btn-sm col-1" data-bs-dismiss="modal">
@@ -28,6 +29,9 @@ function Searchbar() {
                     type="text"
                     placeholder="Search YouTube"
                     className=" border-0 inp-btn bg-transparent"
+                    id="liveToastBtnmob"
+                    data-bs-toggle="toast"
+                    data-bg-target="#liveToast"
                   />
                 </button>
                 <button className=" btn btn-sm bg-transparent ">
@@ -37,6 +41,9 @@ function Searchbar() {
               <button className="btn btn-sm d-flex justify-content-center  col-1 bg-secondary-subtle rounded-5">
                 <img src={data.mic} alt="" />
               </button>
+            </div>
+            <div className=" modal-body">
+              <SearchFilter />
             </div>
           </div>
         </div>
