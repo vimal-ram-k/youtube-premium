@@ -8,8 +8,8 @@ function Navbar() {
     <>
       <nav className=" outer  navbar d-flex justify-content-between p-0 px-3">
         <ul className=" list-group-horizontal m-0 p-0 d-flex align-items-center  column-gap-2">
-          <li className=" list-group-item nav-item d-none d-md-inline-block">
-            <i className=" bi bi-list" style={{ fontSize: "2rem" }}></i>
+          <li className=" list-group-item nav-item d-md-none">
+            <i className=" bi bi-list" style={{ fontSize: "1.5rem" }}></i>
           </li>
           <li className=" ist-group-item nav-item ">
             <Link
