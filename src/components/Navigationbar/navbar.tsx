@@ -8,8 +8,8 @@ function Navbar() {
     <>
       <nav className=" outer  navbar d-flex justify-content-between p-0 px-3">
         <ul className=" list-group-horizontal m-0 p-0 d-flex align-items-center  column-gap-2">
-          <li className=" list-group-item nav-item d-none d-md-inline-block">
-            <i className=" bi bi-list" style={{ fontSize: "2rem" }}></i>
+          <li className=" list-group-item nav-item  d-md-none">
+            <i className=" bi bi-list" style={{ fontSize: "1.5rem" }}></i>
           </li>
           <li className=" ist-group-item nav-item ">
             <Link
@@ -17,7 +17,7 @@ function Navbar() {
               className=" d-flex align-items-center column-gap-2 text-decoration-none text-black"
             >
               <img src={data.logo} width={30} alt="" />
-              <h1 className=" m-0 main-header">Youtube</h1>
+              <h1 className=" m-0 main-header fs-6 fw-light">Youtube</h1>
             </Link>
           </li>
         </ul>
@@ -39,7 +39,7 @@ function Navbar() {
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
               >
-                <img src={data["search-logo"]} width={30} alt="" />
+                <img src={data["search-logo"]} width={25} alt="" />
               </button>
             </li>
           </ul>
