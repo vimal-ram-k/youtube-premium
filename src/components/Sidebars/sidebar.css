@@ -5,3 +5,17 @@
 .btn:active {
   background-color: rgb(212, 212, 212);
 }
+
+.custom-side-width {
+  max-width: 220px;
+  width: 200px;
+  min-width: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .custom-side-width {
+    max-width: 220px;
+    width: 80px;
+    min-width: 10px;
+  }
+}
