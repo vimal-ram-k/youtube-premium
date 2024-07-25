@@ -2,8 +2,30 @@ import "./searchbar.css";
 import data from "./search-data.json";
 import data1 from "../Navigationbar/navbar-data.json";
 import Mainsearchbar from "./mainsearchbar";
+import { useEffect } from "react";
+import bootstrap, { Modal } from "bootstrap";
 
 function Searchbar() {
+  useEffect(() => {
+    function AutoHideModal() {
+      if (window.innerWidth > 768) {
+        const searchbarModalElement = document.getElementById("staticBackdrop");
+
+        if (searchbarModalElement) {
+          const searchbar =
+            Modal.getInstance(searchbarModalElement) ||
+            new Modal(searchbarModalElement);
+          searchbar.hide();
+        }
+      }
+    }
+    window.addEventListener("resize", AutoHideModal);
+
+    return () => {
+      window.removeEventListener("resize", AutoHideModal);
+    };
+  }, []);
+
   return (
     <>
       <Mainsearchbar />
