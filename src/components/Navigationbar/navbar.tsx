@@ -11,7 +11,7 @@ function Navbar() {
           <li className=" list-group-item nav-item d-md-none">
             <i className=" bi bi-list" style={{ fontSize: "1.5rem" }}></i>
           </li>
-          <li className=" ist-group-item nav-item ">
+          <li className="list-group-item nav-item ">
             <Link
               to={"/"}
               className=" d-flex align-items-center column-gap-2 text-decoration-none text-black"
@@ -23,23 +23,45 @@ function Navbar() {
         </ul>
         <Searchbar />
         <div className="">
-          <ul className=" list-group-horizontal  p-0 m-0 d-flex align-items-center column-gap-4">
-            <li className="ist-group-item nav-item d-none d-md-block">
-              <i
-                className=" bi bi-camera-video"
-                style={{ fontSize: "1.5rem" }}
-              ></i>
+          <ul className=" list-group-horizontal  p-0 m-0 d-flex align-items-center column-gap-1">
+            <li className="list-group-item nav-item d-none d-md-block">
+              <button className=" btn">
+                <i
+                  className=" bi bi-camera-video"
+                  style={{ fontSize: "1.2rem" }}
+                ></i>
+              </button>
             </li>
-            <li className="ist-group-item nav-item d-none d-md-block">
-              <i className=" bi bi-bell" style={{ fontSize: "1.5rem" }}></i>
+            <li className="list-group-item nav-item d-none d-md-block">
+              <button className=" btn">
+                <i
+                  className=" bi bi-bell   position-relative"
+                  style={{ fontSize: "1.2rem" }}
+                >
+                  <span
+                    className=" position-absolute translate-middle top-0 start-100 badge  rounded-5 bg-danger"
+                    style={{ fontSize: ".7rem" }}
+                  >
+                    4
+                  </span>
+                </i>
+              </button>
             </li>
-            <li className="ist-group-item nav-item d-md-none">
+            <li className="list-group-item nav-item d-md-none">
               <button
-                className=" btn p-0  bg-transparent"
+                className="btn"
                 data-bs-toggle="modal"
                 data-bs-target="#staticBackdrop"
               >
-                <img src={data["search-logo"]} width={25} alt="" />
+                <i className="bi bi-search" style={{ fontSize: "1.2rem" }}></i>
+              </button>
+            </li>
+            <li className=" list-group-item nav-item">
+              <button className=" btn">
+                <i
+                  className=" bi bi-person-fill"
+                  style={{ fontSize: "1.2rem" }}
+                ></i>
               </button>
             </li>
           </ul>
