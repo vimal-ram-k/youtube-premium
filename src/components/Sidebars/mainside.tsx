@@ -12,10 +12,10 @@ function Mainside(props: item) {
       <li className="">
         <Link
           to="/"
-          className=" text-decoration-none text-black  btn  px-5 py-2 list-group-item d-flex align-items-center column-gap-4 rounded-3  "
+          className=" text-decoration-none text-black  btn  px-5 py-2 list-group-item d-flex align-items-center column-gap-lg-4  rounded-3  "
         >
           <i className={`bi  ${props.img}`} style={{ fontSize: "1.2rem" }}></i>
-          <h1 className=" fw-light fs-6 m-0">{props.name}</h1>
+          <h1 className=" fw-light fs-6 m-0 d-none d-lg-block">{props.name}</h1>
         </Link>
       </li>
     </div>

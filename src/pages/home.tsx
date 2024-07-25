@@ -2,7 +2,7 @@ import Sidebars from "../components/Sidebars/sidebars";
 
 function Home() {
   return (
-    <div>
+    <div className=" row ">
       <Sidebars />
     </div>
   );
