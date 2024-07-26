@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import Mainside from "./mainside";
 import data from "./sidebar-data.json";
-import "./sidebar.css";
 
 function Sidebars() {
   return (
-    <div className="custom-side-width d-none d-md-inline mt-3 border-bottom py-2 ">
+    <div className=" d-none d-md-inline col-2 mt-3 border-bottom py-2 col-lg-3 col-xl-2">
       <ul className=" p-0 list-group-flush ">
         {data.sidebarpages.map((items) => {
           return <Mainside img={items.img} name={items.name} />;
