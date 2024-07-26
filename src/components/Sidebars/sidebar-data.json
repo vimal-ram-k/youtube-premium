@@ -16,28 +16,46 @@
 
   "sidebaryou": [
     {
-      "img": "",
+      "img": "bi-person-bounding-box",
       "name": "Your channel"
     },
     {
-      "img": "",
+      "img": "bi-clock-history",
       "name": "History"
     },
     {
-      "img": "",
+      "img": "bi-music-note-list",
       "name": "Playlists"
     },
     {
-      "img": "",
+      "img": "bi-film",
       "name": "Your videos"
     },
     {
-      "img": "",
+      "img": "bi-stopwatch",
       "name": "Watch later"
     },
     {
-      "img": "",
+      "img": "bi-star-half",
       "name": "Liked videos"
+    }
+  ],
+  "subcriptionlist": [
+    {
+      "channel_logo": "bi-person-bounding-box",
+      "channel_name": "Mongo DB"
+    },
+    {
+      "channel_logo": "bi-person-bounding-box",
+      "channel_name": "Mongo DB"
+    },
+    {
+      "channel_logo": "bi-person-bounding-box",
+      "channel_name": "Mongo DB"
+    },
+    {
+      "channel_logo": "bi-person-bounding-box",
+      "channel_name": "Mongo DB"
     }
   ]
 }
