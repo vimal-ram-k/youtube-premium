@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import Mainside from "./mainside";
 import data from "./sidebar-data.json";
+import { UserRelatedSideBars } from "./userrelatedsidebars";
+import { SubcriptionList } from "./subcriptionlist";
 
 function Sidebars() {
   return (
@@ -10,6 +12,8 @@ function Sidebars() {
           return <Mainside img={items.img} name={items.name} />;
         })}
       </ul>
+      <UserRelatedSideBars />
+      <SubcriptionList />
     </div>
   );
 }
