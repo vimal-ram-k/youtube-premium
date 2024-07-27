@@ -1,7 +1,7 @@
 function Mainsearchbar() {
   return (
-    <div className=" d-flex col-7 justify-content-center align-items-center column-gap-4">
-      <div className=" border d-none d-md-flex justify-content-between col-8 align-items-center rounded-5  ps-3 py-0">
+    <div className=" d-flex col-7 justify-content-center align-items-center column-gap-4 d-none d-md-flex">
+      <div className=" border d-none d-md-flex  justify-content-between col-8 align-items-center rounded-5  ps-3 py-0">
         <div className=" d-flex align-items-center column-gap-2" id="searchbar">
           <input
             type="text"

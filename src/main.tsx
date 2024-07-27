@@ -24,7 +24,7 @@ const ROUTER = createBrowserRouter([
       },
       {
         path: "/subcriptions",
-        element: <h1 className=" col-auto">Subcriptions</h1>,
+        element: <h1 className=" col-auto"></h1>,
       },
     ],
   },
