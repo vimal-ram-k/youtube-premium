@@ -4,10 +4,10 @@ import Navbar from "./components/Navigationbar/navbar";
 
 function App() {
   return (
-    <>
+    <div className="main-app">
       <Navbar />
       <Outlet />
-    </>
+    </div>
   );
 }
 

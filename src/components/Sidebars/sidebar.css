@@ -13,7 +13,7 @@
 }
 
 .custom-scrollbar {
-  max-height: 100vh; /* Adjust this value as needed */
+  max-height: calc(100dvh - 50px); /* Adjust this value as needed */
   overflow-y: auto;
 }
 

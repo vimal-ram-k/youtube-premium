@@ -10,7 +10,10 @@ import { SidebarFooter } from "./sidebarfooter";
 
 function Sidebars() {
   return (
-    <div className="custom-scrollbar d-none d-md-inline col-2 mt-3 border-bottom py-2 col-lg-3 col-xl-2 d-flex flex-column">
+    <div
+      className="custom-scrollbar d-none d-md-inline col-2 border-bottom py-2 px-3 col-lg-2 col-xxl-2 flex flex-column"
+      style={{ maxWidth: "250px", minWidth: "100px" }}
+    >
       <ul className=" p-0 list-group-flush border-bottom   ">
         {data.sidebarpages.map((items) => {
           return <Mainside img={items.img} name={items.name} />;
