@@ -12,6 +12,32 @@
   min-width: 10px;
 }
 
+.custom-scrollbar {
+  max-height: 100vh; /* Adjust this value as needed */
+  overflow-y: auto;
+}
+
+/* Optional: Custom scrollbar styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+  border-radius: 10px;
+  min-height: 30px; /* Ensures the thumb has a minimum height */
+  height: 30px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  min-height: 20px;
+}
+
 @media screen and (max-width: 1024px) {
   .custom-side-width {
     max-width: 220px;
