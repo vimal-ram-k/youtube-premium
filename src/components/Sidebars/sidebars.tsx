@@ -11,7 +11,7 @@ import { SidebarFooter } from "./sidebarfooter";
 function Sidebars() {
   return (
     <div
-      className="custom-scrollbar d-none d-md-inline col-2 border-bottom py-2 px-3 col-lg-2 col-xxl-2 flex flex-column"
+      className="custom-scrollbar d-none d-md-inline col-1 py-2 px-3 col-lg-3 col-xxl-2 flex flex-column"
       style={{ maxWidth: "250px", minWidth: "100px" }}
     >
       <ul className=" p-0 list-group-flush border-bottom   ">
@@ -20,11 +20,13 @@ function Sidebars() {
         })}
       </ul>
       <UserRelatedSideBars />
-      <SubcriptionList />
-      <Explore />
-      <Mfyoutube />
-      <Configure />
-      <SidebarFooter />
+      <div className=" d-none d-lg-block">
+        <SubcriptionList />
+        <Explore />
+        <Mfyoutube />
+        <Configure />
+        <SidebarFooter />
+      </div>
     </div>
   );
 }
