@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className=" outer  navbar d-flex justify-content-between p-0 px-3">
+      <nav className=" outer  navbar d-flex justify-content-between p-0 px-3 position-sticky top-0 bg-white">
         <ul className=" list-group-horizontal m-0 p-0 d-flex align-items-center  column-gap-2">
           <li className=" list-group-item nav-item d-md-none">
             <i className=" bi bi-list" style={{ fontSize: "1.5rem" }}></i>
