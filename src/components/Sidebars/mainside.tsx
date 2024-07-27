@@ -12,7 +12,11 @@ function Mainside(props: item) {
     <div>
       <li className="">
         <Link
-          to="/"
+          to={
+            props.name !== "Home"
+              ? `${props.name.toLocaleLowerCase().split(" ").join("")}`
+              : "/"
+          }
           className=" text-decoration-none text-black btn  py-2 d-flex align-items-center justify-content-lg-start justify-content-center column-gap-lg-4 rounded-3  "
         >
           {!props.channel_logo ? (
