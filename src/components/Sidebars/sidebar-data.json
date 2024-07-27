@@ -42,20 +42,113 @@
   ],
   "subcriptionlist": [
     {
-      "channel_logo": "bi-person-bounding-box",
-      "channel_name": "Mongo DB"
+      "channel_logo": "src/components/Sidebars/assets/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s88-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "freecodeCamp "
     },
     {
-      "channel_logo": "bi-person-bounding-box",
-      "channel_name": "Mongo DB"
+      "channel_logo": "src/components/Sidebars/assets/AIdro_lsZg5AuszjSq2zyrai2A2B7xUF_e24UZLtXgm5NuK3i1nS=s88-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "Polimer Channel"
     },
     {
-      "channel_logo": "bi-person-bounding-box",
-      "channel_name": "Mongo DB"
+      "channel_logo": "src/components/Sidebars/assets/AIdro_ly3xtIB91XFXkosdKSKwBSR3Yv0LGaG42i3XFKpeERrg=s68-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "DBdevEB"
     },
     {
-      "channel_logo": "bi-person-bounding-box",
-      "channel_name": "Mongo DB"
+      "channel_logo": "src/components/Sidebars/assets/AIdro_m0XYY-8l01ipIc9Y9FkfvsCVKB8Hwib0HkwfTxcR4pXQ=s88-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "Dave Grey"
+    },
+    {
+      "channel_logo": "src/components/Sidebars/assets/AIdro_n8JEk_OKyvAE7tq8xZHT9NbmfeICRvz5RicySVMtFymQ=s88-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "A2D"
+    },
+    {
+      "channel_logo": "src/components/Sidebars/assets/AIdro_n8JEk_OKyvAE7tq8xZHT9NbmfeICRvz5RicySVMtFymQ=s88-c-k-c0x00ffffff-no-rj.jpeg",
+      "channel_name": "Traversy Media"
+    }
+  ],
+
+  "explore": [
+    {
+      "img": "bi-fire",
+      "name": "Trending"
+    },
+    {
+      "img": "bi-bag-check-fill",
+      "name": "Shopping"
+    },
+    {
+      "img": "bi-music-note-beamed",
+      "name": "Music"
+    },
+    {
+      "img": "bi-film",
+      "name": "Movies"
+    },
+    {
+      "img": "bi-truck",
+      "name": "Live"
+    },
+    {
+      "img": "bi-controller",
+      "name": "Gaming"
+    },
+    {
+      "img": "bi-newspaper",
+      "name": "News"
+    },
+    {
+      "img": "bi-scooter",
+      "name": "Sports"
+    },
+    {
+      "img": "bi-book-fill",
+      "name": "Courses"
+    },
+    {
+      "img": "bi-journal-richtext",
+      "name": "Fashion & Beauty"
+    },
+    {
+      "img": "bi-whatsapp",
+      "name": "Podcasts"
+    }
+  ],
+
+  "MFyoutube": [
+    {
+      "img": "src/components/Navigationbar/logo/youtube-logo.svg",
+      "name": "YouTube Premium"
+    },
+    {
+      "img": "src/components/Sidebars/assets/mfy/vecteezy_youtube-studio-icons_17396826.png",
+      "name": "YouTube Studio"
+    },
+    {
+      "img": "src/components/Sidebars/assets/mfy/Youtube_Kids_new_logo.svg",
+      "name": "YouTube Music"
+    },
+    {
+      "img": "src/components/Sidebars/assets/mfy/Youtube_Music_icon.svg",
+      "name": "YouTube Kids"
+    }
+  ],
+
+  "configure": [
+    {
+      "img": "bi-gear",
+      "name": "Settings"
+    },
+    {
+      "img": "bi-hourglass-top",
+      "name": "Report History"
+    },
+    {
+      "img": "bi-info-circle",
+      "name": "Help"
+    },
+    {
+      "img": "bi-rss",
+      "name": "Send feedback"
     }
   ]
 }
