@@ -3,6 +3,10 @@ import Mainside from "./mainside";
 import data from "./sidebar-data.json";
 import { UserRelatedSideBars } from "./userrelatedsidebars";
 import { SubcriptionList } from "./subcriptionlist";
+import { Explore } from "./explore";
+import { Mfyoutube } from "./morefromyoutube";
+import { Configure } from "./confidure";
+import { SidebarFooter } from "./sidebarfooter";
 
 function Sidebars() {
   return (
@@ -17,6 +21,10 @@ function Sidebars() {
       </ul>
       <UserRelatedSideBars />
       <SubcriptionList />
+      <Explore />
+      <Mfyoutube />
+      <Configure />
+      <SidebarFooter />
     </div>
   );
 }
