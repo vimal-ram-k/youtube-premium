@@ -7,6 +7,8 @@ import "../node_modules/bootstrap/scss/bootstrap.scss";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import Home from "./pages/home.tsx";
+import { Shorts } from "./pages/shorts.tsx";
+
 const ROUTER = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +17,14 @@ const ROUTER = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/shorts",
+        element: <Shorts />,
+      },
+      {
+        path: "/subcriptions",
+        element: <h1 className=" col-auto">Subcriptions</h1>,
       },
     ],
   },

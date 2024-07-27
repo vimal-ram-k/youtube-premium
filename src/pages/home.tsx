@@ -2,8 +2,8 @@ import Sidebars from "../components/Sidebars/sidebars";
 
 function Home() {
   return (
-    <div className=" row ">
-      <Sidebars />
+    <div className=" col-auto">
+      <h1>Hi</h1>
     </div>
   );
 }
