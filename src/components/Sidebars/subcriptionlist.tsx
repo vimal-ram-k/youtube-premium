@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import data from "./sidebar-data.json";
 import Mainside from "./mainside";
 

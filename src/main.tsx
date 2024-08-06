@@ -2,7 +2,7 @@ import React from "react";
 import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "../node_modules/bootstrap/scss/bootstrap.scss";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";

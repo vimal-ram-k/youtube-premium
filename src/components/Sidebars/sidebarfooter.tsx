@@ -1,5 +1,3 @@
-import Mainside from "./mainside";
-import data from "./sidebar-data.json";
 
 export const SidebarFooter = () => {
   return (

@@ -3,7 +3,7 @@ import data from "./search-data.json";
 import data1 from "../Navigationbar/navbar-data.json";
 import Mainsearchbar from "./mainsearchbar";
 import { useEffect } from "react";
-import bootstrap, { Modal } from "bootstrap";
+import  { Modal } from "bootstrap";
 
 function Searchbar() {
   useEffect(() => {
